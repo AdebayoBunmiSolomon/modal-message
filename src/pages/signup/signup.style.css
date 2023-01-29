@@ -1,0 +1,51 @@
+/** @format */
+.body-default-mode {
+  background-color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  transition: ease-in-out 2s;
+}
+
+.body-dark-mode {
+  background-color: rgba(0, 0, 0, 0.822);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  transition: ease-in-out 2s;
+}
+
+.main-container-default-mode {
+  background-color: white;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.719);
+  transition: ease-in-out 2s;
+  color: black;
+  margin-top: 5%;
+  z-index: -1;
+}
+
+.main-container-dark-mode {
+  background-color: rgb(27, 23, 23);
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.719);
+  transition: ease-in-out 2s;
+  color: white;
+  margin-top: 5%;
+  z-index: -1;
+}
+
+input::placeholder {
+  font-style: italic;
+  color: gainsboro;
+}
+
+.inner-div {
+  padding-top: 25px;
+}
